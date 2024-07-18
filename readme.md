@@ -7,7 +7,7 @@ Es un conjunto de scripts de Python destinados a inspeccionar transacciones en e
 * Devuelve la cotización del BitCoin en este instante.
 * Se invoca en el comando: _python btcRating.py_
 
-![Salida de btcRating.py](./img/btcRating.png)
+![Salida de btcRating.py](img/btcRating.PNG)
 
 ## blkChain
 
