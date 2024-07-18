@@ -15,7 +15,7 @@ Es un conjunto de scripts de Python destinados a inspeccionar transacciones en e
 * Se invoca con el comando: _python blkChain.py_ 
 * Tambien se muestra una tabla con la cotización del BitCoin
 
-![Salida de blkChain.py](/img/blkChain.png)
+![Salida de blkChain.py](img/blkChain.PNG)
 
 * El script pregunta si se quiere analizar una transacción en detalle. Si se contesta 's', el script te pide el número de la tranasacción correspondiente e invoca automáticamente al script singleTx.py
 
@@ -24,13 +24,13 @@ Es un conjunto de scripts de Python destinados a inspeccionar transacciones en e
 * Este script devuelve la información más detallada sobre una transacción proporcionando el Hash de la misma. Se muestra la información general y la información de las entradas y salidas con las direcciones (wallets) de origen y de destino. El script emieza tambien con la información de la cotización del BitCoin.
 * Se invoca con el comando: _python singleTx.py hash_, donde se ha de especificar el hash de la transacción.
 
-![Salida de singleTx.py](/img/singleTx.png)
+![Salida de singleTx.py](img/singleTx.png)
 
 ## showAddr
 
 * Este script devuelve una tabla con las transacciones realizadas sobre una dirección concreta. Se muestra primero las más recientes y la tabla acaba con las más antiguas. Si existienran más de 100 transacciones asocieadas a esta dirección se mostrarían solo las 100 transacciones más recientes. Como en los anteriores scripts, también se comienza con la cotización del BitCoin.
 * Se invoca con el comando: _python showAddr.py address_, donde address es la dirección que se quiere inspeccionar.
 
-![Salida de sowAddr.py](/img/showAddr.png)
+![Salida de sowAddr.py](img/showAddr.png)
 
 
