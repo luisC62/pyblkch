@@ -31,6 +31,6 @@ Es un conjunto de scripts de Python destinados a inspeccionar transacciones en e
 * Este script devuelve una tabla con las transacciones realizadas sobre una dirección concreta. Se muestra primero las más recientes y la tabla acaba con las más antiguas. Si existienran más de 100 transacciones asocieadas a esta dirección se mostrarían solo las 100 transacciones más recientes. Como en los anteriores scripts, también se comienza con la cotización del BitCoin.
 * Se invoca con el comando: _python showAddr.py address_, donde address es la dirección que se quiere inspeccionar.
 
-![Salida de sowAddr.py](img/showAddr.png)
+![Salida de sowAddr.py](img/showAddr.PNG)
 
 
