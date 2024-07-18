@@ -24,7 +24,7 @@ Es un conjunto de scripts de Python destinados a inspeccionar transacciones en e
 * Este script devuelve la información más detallada sobre una transacción proporcionando el Hash de la misma. Se muestra la información general y la información de las entradas y salidas con las direcciones (wallets) de origen y de destino. El script emieza tambien con la información de la cotización del BitCoin.
 * Se invoca con el comando: _python singleTx.py hash_, donde se ha de especificar el hash de la transacción.
 
-![Salida de singleTx.py](img/singleTx.png)
+![Salida de singleTx.py](img/singleTx.PNG)
 
 ## showAddr
 
